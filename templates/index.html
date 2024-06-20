@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIFFER: Your GIF Maker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="upload-box">
+            <h1>GIFFER: Your GIF Maker</h1>
+            <form action="/upload" method="post" enctype="multipart/form-data">
+                <input type="file" name="file" class="upload-input">
+                <input type="submit" value="Upload" class="upload-button">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+whisper
+ffmpeg-python
+moviepy
+flask
