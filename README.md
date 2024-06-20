@@ -12,24 +12,7 @@ GIFFER is a web application that allows users to upload a video file, transcribe
 
 ## Directory Structure
 
-gif_generator/
-├── app.py
-├── main.py
-├── uploads/
-├── scripts/
-│ ├── create_gifs.py
-│ ├── segment.py
-│ └── transcribe.py
-├── static/
-│ ├── css/
-│ │ └── style.css
-│ └── gifs/
-├── templates/
-│ ├── index.html
-│ └── result.html
-├── requirements.txt
-├── video.mp4
-└── README.md
+![image](https://github.com/chinmayedr5602/gif_generator/assets/77034548/c4e69281-469b-46ab-a274-f3e78a564655)
 
 
 ## Installation
